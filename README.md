@@ -2,6 +2,7 @@
 * meteor 1.8.2
 * Node.js 12.13.0
 * NPM 6.12.0
+* Vue 2.6.11
 
 ## install meteor
 

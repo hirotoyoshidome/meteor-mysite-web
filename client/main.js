@@ -1,5 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import Vue from 'vue';
+import App from './App.vue';
 
 import './main.html';
 
@@ -25,4 +27,11 @@ Template.hello.events({
     // clickされたらカウンターをインクリメントする
     instance.counter.set(instance.counter.get() + 1);
   },
+});
+
+Meteor.startup(() => {
+  new Vue({
+    el: '#app',
+    ...App,
+  });
 });
