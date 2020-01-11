@@ -33,3 +33,8 @@ meteor remove autopublish
 ## TODO
 * convert docker
 
+
+## DOCS
+* [Tutorial](https://www.meteor.com/try)
+* [Guide](http://guide.meteor.com)
+* [Docs](https://docs.meteor.com)

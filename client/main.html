@@ -1,25 +1,24 @@
 <head>
-  <title>meteor-mysite-web</title>
+  <title>タイトル</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
+  <h1>Viewのファイル</h1>
+  templateのname属性を指定してテンプレートを表示する<br/>
+  <hr />
   {{> hello}}
+  <hr />
   {{> info}}
+  <hr />
 </body>
 
 <template name="hello">
+  <h2>helloのtempateです</h2>
   <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+  <p>クリックされた回数は {{counter}} 回です</p>
+  {{ hello }}
 </template>
 
 <template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
+  <h2>infoのtempateです</h2>
 </template>
