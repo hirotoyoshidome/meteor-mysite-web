@@ -25,7 +25,7 @@ http://localhost:3000/
 
 or
 
-NO_HMR=1 meteor
+NO_HMR=1 meteor --settings=settings.json
 ```
 
 ## remove package for security
